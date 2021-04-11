@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+	Form	
+	</title>
+	<style type="text/css">
+		*{
+			font-family: proxima nova;
+			border-color: black;
+
+		}
+		h2{
+			font-size:28px; 
+		}
+		input, select, textarea {
+			margin-bottom: 10px
+		}
+	</style>
+</head>
+	<body>
+			<h2>Tabel Biodata</h2>
+			<form action="#" method="post">
+				<label>NIM :</label>
+			<input type="text" name="NIM" placeholder="Masukan NIM Anda"><br>
+
+			<label>Nama :</label>
+			<input type="" name="nama"><br>
+
+			<label>Jenis kelamin :</label>
+			<input type="radio" name="rbjk" value="L" checked="">Laki-laki
+			<input type="radio" name="rbjk" value="W" checked="">Wanita <br>
+
+			<label for="jr">Jurusan</label>
+			<select name="Jurusan"> 
+			<option value="">Pilih</option>
+			<option value="S1 TI">S1 TI</option>
+			<option value="D3 RPL">D3 RPL</option>
+			<option value="D3 SI">D3 SI</option>
+			</select><br>
+
+			<label for="cttn">Catatan</label>
+			<textarea name="textarea" id="cttn" cols="30" rows="5"></textarea><br>
+
+			<label for="">Email :</label>
+			<input type="email" name="email"><br>
+
+			<label for="">Harga :</label>
+			<input type="number" name="harga"><br>
+
+			<label for="">Tanggal</label>
+			<input type="Date" name="tanggal"><br>
+
+			<input type="submit" name="Submit" value="Simpan Data">
+			<input type="reset" name="reset" value="Batal">
+			</form>
+	</body>
+</html>
